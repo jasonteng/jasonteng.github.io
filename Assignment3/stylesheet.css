@@ -1,0 +1,146 @@
+    /* stylesheet.css */
+    #wrapper {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        background-color: forestgreen;
+
+    }
+    #header {
+        background-color: #d0f5b9;
+        height: 200px;
+        width: 1500px;
+        position: relative;
+        padding: 10px; 
+        margin: 10px 0px 10px 22px;
+    } 
+    #header img {
+        margin: 20px;
+        height: 160px;
+        width: 135px;
+        display: inline-block;
+        background: white;
+        float: left;
+    }
+    hl {
+        font-size: 56px;
+        font-style: italic;
+    }
+    #header ul {
+        margin-left: 980px;
+        vertical-align: middle;
+        padding: 6px;
+    }
+    #header li {
+        list-style: none;
+        padding: 10px;
+        display: inline-block;
+        font-size: larger;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 18px;
+        background-color: #3abf3e;
+        cursor: auto;
+        border-radius: 10px;
+        font-family: sans-serif;
+    }
+    #content {
+        width: 100%;
+        height: 60%;
+        padding: 20px;
+    }
+    div {
+         display: block;
+    }
+    #left {
+        display: inline-block;
+        background: #d0f5b9;
+        width: 18%;
+        height: 475px;
+        padding: 20px;
+        position: absolute;
+        box-sizing: border-box;
+        margin-left: 3px;
+       
+    }
+    #left ul {
+        padding-left: initial;
+    }
+    #left li {
+        list-style: none;
+        padding: 10px;
+    }
+    #center {
+         display: inline-block;
+         background: #b8f3a9;
+         width: 50%;
+         height: inherit;
+         margin: 0px 31px 0px 313px;
+         position: relative;
+         padding: 20px;
+         
+    }
+    #triangle1 {
+        width: 0px;
+        height: 0px;
+        border: solid 30px;
+        border-color: #4fa24f #4fa24f transparent transparent;
+        position: absolute;
+        left: 768px;
+        top: -3px;
+    }
+    #triangle2 {
+        width: 0px;
+        height: 0px;
+        border: solid 30px;
+        border-color: transparent #4fa24f #4fa24f transparent;
+        position: absolute;
+        left: 769px;
+        top: 415px;
+    }
+    #triangle3 {
+        width: 0px;
+        height: 0px;
+        border: solid 30px;
+        border-color: transparent transparent #4fa24f #4fa24f;
+        position: absolute;
+        left: -3px;
+        top: 415px;
+    }
+    #triangle4 {
+        width: 0px;
+        height: 0px;
+        border: solid 30px;
+        border-color: #4fa24f transparent transparent #4fa24f;
+        position: absolute;
+        left: -4px;
+        top: -4px;
+    }
+    #right {
+        display: inline-block;
+        background: #d0f5b9;
+        width: 20%;
+        padding: 20px;
+        position: absolute;
+        height: 435px;
+    }
+    #right ul {
+        padding-left: initial;
+    }
+
+    #right li {
+        list-style: none;
+        padding: 10px;
+        display: inline-block;
+    }
+    #footer{
+        width: 1520px;
+        color: white;
+        margin-top: 30px;
+        text-align: center;
+        box-sizing: border-box;
+
+        
+    }
